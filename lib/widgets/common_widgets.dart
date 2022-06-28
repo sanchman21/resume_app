@@ -52,7 +52,7 @@ class Textformfield extends StatelessWidget {
               borderRadius: BorderRadius.circular(10),
               borderSide: BorderSide(
                   color: textformfieldcolor, width: size.width * 0.006)),
-          errorStyle: GoogleFonts.lato(fontStyle: FontStyle.italic)),
+          errorStyle: GoogleFonts.lato(fontStyle: FontStyle.italic, color: Colors.red)),
     );
   }
 }
